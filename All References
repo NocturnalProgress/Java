@@ -1,5 +1,3 @@
-class
-
 //Some notes?  
   double[] array1 = new double[5]; //Makes double array
     int[] = new int[5]; //Makes int array
