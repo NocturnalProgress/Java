@@ -1,0 +1,158 @@
+class
+
+//Some notes?  
+  double[] array1 = new double[5]; //Makes double array
+    int[] = new int[5]; //Makes int array
+    int[] array2= {1, 2, 3, 4, 5}; //Can define numbers inside
+    System.out.println(array2[0]);
+	System.out.println(array2.length); //Length of an array
+    
+    array1 = 3.14;
+//End Some Notes?
+	
+//Arrays
+	import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    String[] String1 = new String[3];
+   //{"", "", ""};
+    String[] String2 = {"Hello", "Hi", "Bye", "Goodbye"};
+    System.out.println( String2[3] );
+    String2[3] = "Au Revoir";
+    System.out.println( String2[3] );
+    String1[2] = "Noice";
+    System.out.println( String1[2] );
+  }
+}
+//End Arrays
+
+//Loops
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    int x = 5;
+
+    int[] array1 = {4, 5, 6, 7};
+    while(x <=10){
+    System.out.println(array1.length);
+    x = x + 1;
+    }
+
+    for(int i = 0; i<array1.length; i++){
+      System.out.println(array1[i]);
+    }
+	
+  }
+}
+//End Loops
+
+//Methods
+class Main {
+  public static void main(String[] args) {
+    p("Hi");
+    p("World!");
+    int x = add(9,10);
+    p(x+""); 
+    printLine();
+    p(""+factorial(6)); //Prints a factorial
+    p(""+factorial(7)); //Prints another factorial
+  }
+
+//If it doesn't return anything
+  public static void p(String s){ 
+    System.out.println(s); 
+  }
+
+//Returns something
+  public static int add(int a, int b){
+    return a + b;
+  }
+//Prints a line
+  public static void printLine(){
+  System.out.println("_________");
+  } 
+
+  public static long factorial(long x){
+    if(x == 1){
+      return 1;
+    }else{
+      return x*factorial(x-1);
+    }
+  }
+}
+//End Methods
+
+
+//Calculator
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter in the first number!");
+    int num1 = scan.nextInt();
+    scan = new Scanner(System.in);
+    System.out.println("Enter in the operator!");
+    String op = scan.nextLine();
+    scan = new Scanner(System.in);
+    System.out.println("Enter in the last number!");
+    int num2 = scan.nextInt();
+    
+    int num3 = 0;
+
+    if(op.equals("+")){
+      num3 = num1 + num2;
+      System.out.println(num3);
+    }else if(op.equals("-")){
+      num3 = num1 - num2;
+      System.out.println(num3);
+    }else if (op.equals("*")){
+      num3 = num1 * num2;
+      System.out.println(num3);
+    }else if(op.equals("/")){
+      num3 = num1 / num2;
+      System.out.println(num3);
+    }else{
+      System.out.println("Unable to complete operation");
+    }
+	
+  }
+}
+//End Calculator
+
+//Password
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    
+    int x = 5;
+    String pass = "HeeHoo";
+    String guess = "";
+    String active = "True";
+    int correct = 0;
+    int attempts = 0;
+    
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter in the first number!");
+    int number = scan.nextInt();
+    
+    System.out.println("Now guess the password.");
+    
+    while(active.equals("True")){
+      if(!guess.equals("HeeHoo")){
+        scan = new Scanner(System.in);
+        System.out.println("Enter in your guess!");
+        attempts = attempts + 1;
+        guess = scan.nextLine();
+      }else if (guess.equals("HeeHoo")){
+        active = "False";
+        System.out.println(attempts);
+      }
+    }
+    while(correct != number){
+      System.out.println(pass);
+      correct = correct + 1;
+    };
+    
+  }
+}
+//End Password

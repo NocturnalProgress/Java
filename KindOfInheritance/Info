@@ -1,0 +1,9 @@
+Shape Object:
+-Variables:
+*Number of sides
+*Side Lengths = Array length
+-Methods
+*Method that gets the number of sides
+*Method that gets perimeter (sum of all sides)
+*Method that gets area
+
