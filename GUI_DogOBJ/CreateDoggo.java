@@ -1,11 +1,15 @@
 package GUI_DogOBJ;
 
 import javax.swing.*;
-
+import java.util.*;
+import java.io.*;
+import java.text.*;
 import java.awt.Color;
 import java.awt.event.*;
 
 class CreateDoggo {
+    static SimpleDateFormat formatter = new SimpleDateFormat("[dd/MM/yyyy HH:mm:ss]");
+    static Date date = new Date();
 
     public static void main(String[] args) {
         JFrame f = new JFrame("Doggo Creator");
@@ -32,9 +36,21 @@ class CreateDoggo {
                 display.setText("This doggo's name is: " + dogName + "\n" + dogName + " is a " + dogGender + "\n"
                         + "Right now " + dogName + " is " + dogStand + "\n" + dogName + " says: " + dogSpeak + "\n"
                         + dogName + "'s fur color is: " + dogCoatColor + "\n" + dogName + "'s collar color is: "
-                        + dogCollarColor);
+                        + dogCollarColor + "\n");
 
+                try (FileWriter fileWrite = new FileWriter(
+                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI_DogOBJ/CreateDoggoLog.txt", true);
+                        BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
+                        PrintWriter out = new PrintWriter(bufferWrite)) {
+                    out.println(formatter.format(date) + " This doggo's name is: " + dogName + "\n" + dogName + " is a "
+                            + dogGender + "\n" + "Right now " + dogName + " is " + dogStand + "\n" + dogName + " says: "
+                            + dogSpeak + "\n" + dogName + "'s fur color is: " + dogCoatColor + "\n" + dogName
+                            + "'s collar color is: " + dogCollarColor + "\n");
+                } catch (IOException e) {
+                    display.append("Save unsucessful! \n");
+                }
             }
+
         });
 
         panel.add(display);

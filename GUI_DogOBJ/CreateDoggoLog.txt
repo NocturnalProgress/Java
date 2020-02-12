@@ -1,0 +1,525 @@
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Girl
+Right now Goit-Tru is sitting
+Goit-Tru says: Woof!
+Goit-Tru's fur color is: White
+Goit-Tru's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Thorndip
+Thorndip is a Girl
+Right now Thorndip is sitting
+Thorndip says: Awooooo..
+Thorndip's fur color is: Golden
+Thorndip's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Prenus
+Prenus is a Girl
+Right now Prenus is sitting
+Prenus says: Arf!
+Prenus's fur color is: Brown
+Prenus's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Girl
+Right now Crablus is standing
+Crablus says: Awooooo..
+Crablus's fur color is: Fawn
+Crablus's collar color is: Magenta
+
+[12/02/2020 16:18:56] This doggo's name is: DingleSchwartz
+DingleSchwartz is a Girl
+Right now DingleSchwartz is sitting
+DingleSchwartz says: Bark!
+DingleSchwartz's fur color is: White
+DingleSchwartz's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Prenus
+Prenus is a Boy
+Right now Prenus is sitting
+Prenus says: Bark!
+Prenus's fur color is: Yellow
+Prenus's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Stublen
+Stublen is a Girl
+Right now Stublen is sitting
+Stublen says: Bark!
+Stublen's fur color is: Brown
+Stublen's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Crebis
+Crebis is a Girl
+Right now Crebis is sitting
+Crebis says: Arf!
+Crebis's fur color is: Yellow
+Crebis's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Girl
+Right now Goit-Tru is sitting
+Goit-Tru says: Arf!
+Goit-Tru's fur color is: Cream
+Goit-Tru's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Prenus
+Prenus is a Boy
+Right now Prenus is sitting
+Prenus says: Arf!
+Prenus's fur color is: Fawn
+Prenus's collar color is: Orange
+
+[12/02/2020 16:18:56] This doggo's name is: Thorndip
+Thorndip is a Girl
+Right now Thorndip is standing
+Thorndip says: Woof!
+Thorndip's fur color is: Fawn
+Thorndip's collar color is: Teal
+
+[12/02/2020 16:18:56] This doggo's name is: Zarth
+Zarth is a Girl
+Right now Zarth is standing
+Zarth says: Arf!
+Zarth's fur color is: Fawn
+Zarth's collar color is: Yellow
+
+[12/02/2020 16:18:56] This doggo's name is: Grublim
+Grublim is a Boy
+Right now Grublim is standing
+Grublim says: Arf!
+Grublim's fur color is: Red
+Grublim's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Bucket
+Bucket is a Boy
+Right now Bucket is sitting
+Bucket says: Arf!
+Bucket's fur color is: Grey
+Bucket's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Gruthden
+Gruthden is a Boy
+Right now Gruthden is sitting
+Gruthden says: Arf!
+Gruthden's fur color is: Blue
+Gruthden's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Girl
+Right now Crablus is standing
+Crablus says: Awooooo..
+Crablus's fur color is: Blue
+Crablus's collar color is: White
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Girl
+Right now Daraxus is standing
+Daraxus says: Bark!
+Daraxus's fur color is: Cream
+Daraxus's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Bucket
+Bucket is a Boy
+Right now Bucket is sitting
+Bucket says: Bark!
+Bucket's fur color is: White
+Bucket's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Harblund
+Harblund is a Boy
+Right now Harblund is sitting
+Harblund says: Bark!
+Harblund's fur color is: Yellow
+Harblund's collar color is: Teal
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Boy
+Right now Crablus is sitting
+Crablus says: Awooooo..
+Crablus's fur color is: White
+Crablus's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Farlip
+Farlip is a Boy
+Right now Farlip is standing
+Farlip says: Arf!
+Farlip's fur color is: Yellow
+Farlip's collar color is: Yellow
+
+[12/02/2020 16:18:56] This doggo's name is: Farlip
+Farlip is a Girl
+Right now Farlip is sitting
+Farlip says: Woof!
+Farlip's fur color is: Red
+Farlip's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Boy
+Right now Goit-Tru is sitting
+Goit-Tru says: Awooooo..
+Goit-Tru's fur color is: Yellow
+Goit-Tru's collar color is: Yellow
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Girl
+Right now Chromblip is sitting
+Chromblip says: Arf!
+Chromblip's fur color is: Red
+Chromblip's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Dinglegorf
+Dinglegorf is a Girl
+Right now Dinglegorf is standing
+Dinglegorf says: Awooooo..
+Dinglegorf's fur color is: Yellow
+Dinglegorf's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: DingleSchwartz
+DingleSchwartz is a Boy
+Right now DingleSchwartz is sitting
+DingleSchwartz says: Woof!
+DingleSchwartz's fur color is: Black
+DingleSchwartz's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Boy
+Right now Daraxus is standing
+Daraxus says: Arf!
+Daraxus's fur color is: Black
+Daraxus's collar color is: Yellow
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Boy
+Right now Goit-Tru is sitting
+Goit-Tru says: Woof!
+Goit-Tru's fur color is: Red
+Goit-Tru's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Zarth
+Zarth is a Boy
+Right now Zarth is sitting
+Zarth says: Arf!
+Zarth's fur color is: Fawn
+Zarth's collar color is: Magenta
+
+[12/02/2020 16:18:56] This doggo's name is: Crebis
+Crebis is a Girl
+Right now Crebis is sitting
+Crebis says: Woof!
+Crebis's fur color is: Red
+Crebis's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Prenus
+Prenus is a Boy
+Right now Prenus is standing
+Prenus says: Bark!
+Prenus's fur color is: Grey
+Prenus's collar color is: Orange
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Girl
+Right now Goit-Tru is standing
+Goit-Tru says: Awooooo..
+Goit-Tru's fur color is: Grey
+Goit-Tru's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Crebis
+Crebis is a Boy
+Right now Crebis is sitting
+Crebis says: Woof!
+Crebis's fur color is: Fawn
+Crebis's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Stublen
+Stublen is a Girl
+Right now Stublen is standing
+Stublen says: Woof!
+Stublen's fur color is: White
+Stublen's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Skonk
+Skonk is a Boy
+Right now Skonk is sitting
+Skonk says: Bark!
+Skonk's fur color is: White
+Skonk's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Arcondus
+Arcondus is a Boy
+Right now Arcondus is sitting
+Arcondus says: Arf!
+Arcondus's fur color is: Black
+Arcondus's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Harblund
+Harblund is a Boy
+Right now Harblund is standing
+Harblund says: Woof!
+Harblund's fur color is: Cream
+Harblund's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Boy
+Right now Daraxus is standing
+Daraxus says: Woof!
+Daraxus's fur color is: Yellow
+Daraxus's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Dinglegorf
+Dinglegorf is a Girl
+Right now Dinglegorf is sitting
+Dinglegorf says: Bark!
+Dinglegorf's fur color is: Yellow
+Dinglegorf's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Gruthden
+Gruthden is a Girl
+Right now Gruthden is standing
+Gruthden says: Woof!
+Gruthden's fur color is: Red
+Gruthden's collar color is: White
+
+[12/02/2020 16:18:56] This doggo's name is: Thorndip
+Thorndip is a Girl
+Right now Thorndip is standing
+Thorndip says: Arf!
+Thorndip's fur color is: White
+Thorndip's collar color is: Teal
+
+[12/02/2020 16:18:56] This doggo's name is: Zarth
+Zarth is a Girl
+Right now Zarth is standing
+Zarth says: Arf!
+Zarth's fur color is: Golden
+Zarth's collar color is: Magenta
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Girl
+Right now Daraxus is standing
+Daraxus says: Arf!
+Daraxus's fur color is: Brown
+Daraxus's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Bucket
+Bucket is a Boy
+Right now Bucket is standing
+Bucket says: Arf!
+Bucket's fur color is: Cream
+Bucket's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Girl
+Right now Crablus is sitting
+Crablus says: Bark!
+Crablus's fur color is: Cream
+Crablus's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Boy
+Right now Chromblip is standing
+Chromblip says: Bark!
+Chromblip's fur color is: Fawn
+Chromblip's collar color is: White
+
+[12/02/2020 16:18:56] This doggo's name is: Stublen
+Stublen is a Girl
+Right now Stublen is standing
+Stublen says: Arf!
+Stublen's fur color is: White
+Stublen's collar color is: Yellow
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Girl
+Right now Daraxus is sitting
+Daraxus says: Woof!
+Daraxus's fur color is: Brown
+Daraxus's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Boy
+Right now Crablus is sitting
+Crablus says: Woof!
+Crablus's fur color is: Golden
+Crablus's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Girl
+Right now Goit-Tru is standing
+Goit-Tru says: Woof!
+Goit-Tru's fur color is: White
+Goit-Tru's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Daraxus
+Daraxus is a Girl
+Right now Daraxus is standing
+Daraxus says: Arf!
+Daraxus's fur color is: Brown
+Daraxus's collar color is: Magenta
+
+[12/02/2020 16:18:56] This doggo's name is: Zarth
+Zarth is a Girl
+Right now Zarth is sitting
+Zarth says: Arf!
+Zarth's fur color is: Yellow
+Zarth's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Crebis
+Crebis is a Boy
+Right now Crebis is standing
+Crebis says: Arf!
+Crebis's fur color is: Black
+Crebis's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Girl
+Right now Chromblip is standing
+Chromblip says: Bark!
+Chromblip's fur color is: Golden
+Chromblip's collar color is: Orange
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Boy
+Right now Chromblip is sitting
+Chromblip says: Bark!
+Chromblip's fur color is: Brown
+Chromblip's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Bucket
+Bucket is a Girl
+Right now Bucket is standing
+Bucket says: Arf!
+Bucket's fur color is: Black
+Bucket's collar color is: Magenta
+
+[12/02/2020 16:18:56] This doggo's name is: Blumpid
+Blumpid is a Boy
+Right now Blumpid is sitting
+Blumpid says: Bark!
+Blumpid's fur color is: Grey
+Blumpid's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Sarcobious
+Sarcobious is a Boy
+Right now Sarcobious is sitting
+Sarcobious says: Arf!
+Sarcobious's fur color is: Fawn
+Sarcobious's collar color is: White
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Girl
+Right now Crablus is standing
+Crablus says: Bark!
+Crablus's fur color is: Black
+Crablus's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Blumpid
+Blumpid is a Boy
+Right now Blumpid is standing
+Blumpid says: Woof!
+Blumpid's fur color is: Golden
+Blumpid's collar color is: Lime
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Boy
+Right now Chromblip is sitting
+Chromblip says: Arf!
+Chromblip's fur color is: Grey
+Chromblip's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Dinglegorf
+Dinglegorf is a Boy
+Right now Dinglegorf is standing
+Dinglegorf says: Woof!
+Dinglegorf's fur color is: Fawn
+Dinglegorf's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Bucket
+Bucket is a Girl
+Right now Bucket is sitting
+Bucket says: Bark!
+Bucket's fur color is: White
+Bucket's collar color is: Cobal
+
+[12/02/2020 16:18:56] This doggo's name is: Skonk
+Skonk is a Boy
+Right now Skonk is standing
+Skonk says: Awooooo..
+Skonk's fur color is: Cream
+Skonk's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Crablus
+Crablus is a Girl
+Right now Crablus is standing
+Crablus says: Bark!
+Crablus's fur color is: Black
+Crablus's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Skonk
+Skonk is a Girl
+Right now Skonk is standing
+Skonk says: Bark!
+Skonk's fur color is: Golden
+Skonk's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Farlip
+Farlip is a Boy
+Right now Farlip is standing
+Farlip says: Awooooo..
+Farlip's fur color is: Black
+Farlip's collar color is: Orange
+
+[12/02/2020 16:18:56] This doggo's name is: Sarcobious
+Sarcobious is a Boy
+Right now Sarcobious is sitting
+Sarcobious says: Arf!
+Sarcobious's fur color is: White
+Sarcobious's collar color is: Black
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Boy
+Right now Goit-Tru is standing
+Goit-Tru says: Bark!
+Goit-Tru's fur color is: Golden
+Goit-Tru's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Girl
+Right now Chromblip is standing
+Chromblip says: Awooooo..
+Chromblip's fur color is: Grey
+Chromblip's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Arcondus
+Arcondus is a Girl
+Right now Arcondus is standing
+Arcondus says: Arf!
+Arcondus's fur color is: Red
+Arcondus's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: Chromblip
+Chromblip is a Girl
+Right now Chromblip is standing
+Chromblip says: Arf!
+Chromblip's fur color is: Golden
+Chromblip's collar color is: Brown
+
+[12/02/2020 16:18:56] This doggo's name is: DingleSchwartz
+DingleSchwartz is a Boy
+Right now DingleSchwartz is standing
+DingleSchwartz says: Bark!
+DingleSchwartz's fur color is: Blue
+DingleSchwartz's collar color is: Cyan
+
+[12/02/2020 16:18:56] This doggo's name is: Goit-Tru
+Goit-Tru is a Boy
+Right now Goit-Tru is sitting
+Goit-Tru says: Arf!
+Goit-Tru's fur color is: Yellow
+Goit-Tru's collar color is: Rainbow
+
+[12/02/2020 16:18:56] This doggo's name is: Prenus
+Prenus is a Boy
+Right now Prenus is sitting
+Prenus says: Bark!
+Prenus's fur color is: Red
+Prenus's collar color is: Cyan
+
