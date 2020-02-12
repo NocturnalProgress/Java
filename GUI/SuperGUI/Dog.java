@@ -1,4 +1,4 @@
-package GUI_SuperGUI;
+package GUI.SuperGUI;
 
 import java.util.*;
 

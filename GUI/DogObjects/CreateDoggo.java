@@ -1,4 +1,4 @@
-package GUI_DogOBJ;
+package GUI.DogObjects;
 
 import javax.swing.*;
 import java.util.*;

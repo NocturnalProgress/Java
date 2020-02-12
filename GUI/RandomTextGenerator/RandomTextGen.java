@@ -1,4 +1,4 @@
-package GUI_RandomTextGenerator;
+package GUI.RandomTextGenerator;
 
 import javax.swing.*;
 import java.awt.event.*;

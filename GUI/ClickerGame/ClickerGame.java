@@ -1,4 +1,4 @@
-package GUI_ClickerGame;
+package GUI.ClickerGame;
 
 import javax.swing.*;
 import javax.swing.border.*;

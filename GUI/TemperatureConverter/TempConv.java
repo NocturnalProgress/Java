@@ -1,9 +1,9 @@
-package GUI_TemperatureConv;
+package GUI.TemperatureConverter;
 
 import javax.swing.*;
 import java.awt.event.*;
 
-public class TempCalc {
+public class TempConv {
     public static int finalTemp;
 
     public static void main(String[] args) {

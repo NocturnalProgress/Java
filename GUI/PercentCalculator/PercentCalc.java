@@ -1,4 +1,4 @@
-package GUI_PercentCalc;
+package GUI.PercentCalculator;
 
 import javax.swing.*;
 

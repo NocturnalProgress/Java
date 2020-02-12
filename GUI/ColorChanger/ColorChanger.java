@@ -1,4 +1,4 @@
-package GUI_ColorChanger;
+package GUI.ColorChanger;
 
 import javax.swing.*;
 import java.awt.*;

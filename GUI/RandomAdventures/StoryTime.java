@@ -1,4 +1,4 @@
-package GUI_Games;
+package GUI.RandomAdventures;
 
 import javax.swing.*;
 import javax.swing.border.*;
