@@ -23,7 +23,9 @@ class ClickerGame {
 
         JButton makeMoney = new JButton("Click Me!");
 
-        JButton save = new JButton("Save");
+        JButton saveData = new JButton("Save");
+
+        JButton loadData = new JButton("Load");
 
         JTextArea display = new JTextArea(16, 48);
         JScrollPane scroll = new JScrollPane(display, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
@@ -52,13 +54,13 @@ class ClickerGame {
             }
         });
 
-        save.addActionListener(new ActionListener() {
+        saveData.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent a) {
                 try (FileWriter fileWrite = new FileWriter(
-                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI_ClickerGame/Save.txt", true);
+                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt", true);
                         BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
                         PrintWriter out = new PrintWriter(bufferWrite)) {
-                    out.println(formatter.format(date) + " Amount of money: " + money + "\n");
+                    out.println(formatter.format(date) + "\n" + money + "\n");
                     display.append("Save Sucess! \n");
                 } catch (IOException e) {
                     display.append("Save unsucessful! \n");
@@ -66,16 +68,33 @@ class ClickerGame {
             }
         });
 
+        loadData.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent a) {
+                try (Scanner sc = new Scanner(
+                        new File("C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt"))) {
+                    String lastSave = sc.nextLine();
+                    display.append("Last save: " + lastSave);
+                    int amount = sc.nextInt();
+                    display.append("Amount of money: " + amount);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
         panel.add(makeMoney);
         panel.add(scroll);
         panel.add(moneyLabel);
-        panel.add(save);
+        panel.add(saveData);
+        panel.add(loadData);
         f.add(panel);
 
         layout.putConstraint(SpringLayout.WEST, makeMoney, 5, SpringLayout.WEST, panel);
         layout.putConstraint(SpringLayout.NORTH, makeMoney, 5, SpringLayout.NORTH, panel);
-        layout.putConstraint(SpringLayout.WEST, save, 50, SpringLayout.WEST, panel);
-        layout.putConstraint(SpringLayout.NORTH, save, 50, SpringLayout.NORTH, panel);
+        layout.putConstraint(SpringLayout.WEST, saveData, 50, SpringLayout.WEST, panel);
+        layout.putConstraint(SpringLayout.NORTH, saveData, 50, SpringLayout.NORTH, panel);
+        layout.putConstraint(SpringLayout.WEST, saveData, 50, SpringLayout.WEST, panel);
+        layout.putConstraint(SpringLayout.NORTH, saveData, 80, SpringLayout.NORTH, panel);
         layout.putConstraint(SpringLayout.WEST, moneyLabel, 5, SpringLayout.WEST, makeMoney);
         layout.putConstraint(SpringLayout.NORTH, moneyLabel, 20, SpringLayout.NORTH, panel);
         layout.putConstraint(SpringLayout.WEST, display, 40, SpringLayout.WEST, panel);

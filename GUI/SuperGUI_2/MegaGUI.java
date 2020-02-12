@@ -1,8 +1,7 @@
-package GUI_SuperGUI_2;
+package GUI.SuperGUI_2;
 
 import javax.swing.*;
 import javax.swing.border.*;
-import java.awt.event.*;
 import java.awt.*;
 import java.util.*;
 
