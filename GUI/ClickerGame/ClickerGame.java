@@ -12,6 +12,7 @@ class ClickerGame {
     static int money = 100;
     static int x = 200;
     static int mult = 10;
+    static int amount;
     static SimpleDateFormat formatter = new SimpleDateFormat("[dd/MM/yyyy HH:mm:ss]");
     static Date date = new Date();
 
@@ -57,28 +58,33 @@ class ClickerGame {
         saveData.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent a) {
                 try (FileWriter fileWrite = new FileWriter(
-                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt", true);
+                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt", false);
                         BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
                         PrintWriter out = new PrintWriter(bufferWrite)) {
                     out.println(formatter.format(date) + "\n" + money + "\n");
-                    display.append("Save Sucess! \n");
+                    display.append("Save successful! \n");
+
                 } catch (IOException e) {
                     display.append("Save unsucessful! \n");
+                    e.printStackTrace();
                 }
             }
         });
 
         loadData.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent a) {
-                try (Scanner sc = new Scanner(
+                try (Scanner scan = new Scanner(
                         new File("C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt"))) {
-                    String lastSave = sc.nextLine();
-                    display.append("Last save: " + lastSave);
-                    int amount = sc.nextInt();
-                    display.append("Amount of money: " + amount);
+                    String lastSave = scan.nextLine();
+                    display.append("Last save: " + lastSave + "\n");
+                    int amount = scan.nextInt();
+                    display.append("Amount of money: " + amount + "\n");
+                    moneyLabel.setText("Money: " + Integer.toString(amount));
                 } catch (IOException e) {
+                    display.append("Load unsuccessful");
                     e.printStackTrace();
                 }
+
             }
         });
 
