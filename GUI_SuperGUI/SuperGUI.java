@@ -7,7 +7,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 
-public class SuperGUI2 {
+public class SuperGUI {
     public static int finalTemp;
     public static int counter;
 

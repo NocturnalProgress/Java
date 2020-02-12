@@ -30,7 +30,7 @@ class Dog {
 
     public String Speak() {
         Random r = new Random();
-        randInt = r.nextInt((4 - 1) + 1) + 1;
+        randInt = r.nextInt((7 - 1) + 1) + 1;
         if (randInt == 1) {
             dogSays = ("Awooooo..");
         } else if (randInt == 2) {
@@ -39,6 +39,12 @@ class Dog {
             dogSays = ("Woof!");
         } else if (randInt == 4) {
             dogSays = ("Bark!");
+        } else if (randInt == 5) {
+            dogSays = ("Wuff!");
+        } else if (randInt == 6) {
+            dogSays = ("Sigh...");
+        } else if (randInt == 7) {
+            dogSays = ("Yip!");
         }
 
         return dogSays;

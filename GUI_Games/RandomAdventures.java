@@ -27,16 +27,18 @@ class RandomAdventures {
         display.setLineWrap(true);
         display.setWrapStyleWord(true);
         display.append("Welcome to the The Random Adventure Game! \n Press Adventure to begin! \n");
+        display.setCaretPosition(display.getDocument().getLength());
 
         adventure.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent a) {
                 panel.revalidate();
 
+                healthDisplay.setText("Health: " + Integer.toString(health));
+
                 Random randInt = new Random();
                 int decision = randInt.nextInt(100);
                 if (decision == 0) {
                     display.append("Special Condition 1 \n");
-
                 } else if (decision == 1) {
                     display.append("Special Condition 1 \n");
 
