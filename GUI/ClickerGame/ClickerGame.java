@@ -35,7 +35,7 @@ class ClickerGame {
         display.setLineWrap(true);
         display.setWrapStyleWord(true);
         display.setCaretPosition(display.getDocument().getLength());
-        display.append("Welcome to the The Clicker Game Game! \n Press the button to begin making money! \n");
+        display.append("Welcome to the The Clicker Game! \n Press the button to begin making money! \n");
 
         JLabel moneyLabel = new JLabel("Money: " + money);
 
