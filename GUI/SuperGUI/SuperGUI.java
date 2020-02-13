@@ -201,7 +201,6 @@ public class SuperGUI {
         getConversion.setForeground(new Color(191, 198, 204));
         returnTemp.setBackground(new Color(32, 39, 49));
         displayTemp.setBackground(new Color(32, 39, 49));
-        tempConverterLabel.setForeground(new Color(191, 198, 204));
         enterTemp.setForeground(new Color(191, 198, 204));
         getTemp.setForeground(new Color(191, 198, 204));
         getConversion.setForeground(new Color(191, 198, 204));
