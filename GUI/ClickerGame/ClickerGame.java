@@ -7,6 +7,7 @@ import java.awt.*;
 import java.io.*;
 import java.text.*;
 import java.util.*;
+import java.util.Timer;
 
 class ClickerGame {
     static int money = 100;
@@ -63,7 +64,6 @@ class ClickerGame {
                         PrintWriter out = new PrintWriter(bufferWrite)) {
                     out.println(formatter.format(date) + "\n" + money + "\n");
                     display.append("Save successful! \n");
-
                 } catch (IOException e) {
                     display.append("Save unsucessful! \n");
                     e.printStackTrace();
@@ -88,6 +88,22 @@ class ClickerGame {
             }
         });
 
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            public void run() {
+                try (FileWriter fileWrite = new FileWriter(
+                        "C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt", false);
+                        BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
+                        PrintWriter out = new PrintWriter(bufferWrite)) {
+                    out.println(formatter.format(date) + "\n" + money + "\n");
+
+                } catch (IOException e) {
+                    display.append("Autosave unsucessful! \n");
+                    e.printStackTrace();
+                }
+            }
+        }, 0, 100000); // Change last number to change timer interval
+
         panel.add(makeMoney);
         panel.add(scroll);
         panel.add(moneyLabel);
@@ -106,7 +122,14 @@ class ClickerGame {
         layout.putConstraint(SpringLayout.WEST, display, 40, SpringLayout.WEST, panel);
         layout.putConstraint(SpringLayout.NORTH, display, 100, SpringLayout.NORTH, panel);
 
-        f.setResizable(true);
+        panel.setBackground(new Color(25, 30, 36));
+        display.setBackground(new Color(32, 39, 49));
+
+        panel.setForeground(new Color(191, 198, 204));
+        display.setForeground(new Color(191, 198, 204));
+        moneyLabel.setForeground(new Color(191, 198, 204));
+
+        f.setResizable(false);
         f.pack();
         f.setSize(600, 400);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
