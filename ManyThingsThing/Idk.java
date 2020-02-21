@@ -5,6 +5,7 @@ import java.util.*;
 // Figure out how to close a scanner without breaking every scanner
 
 class Idk {
+    static Scanner scan;
 
     public static void main(String[] args) {
 
@@ -29,6 +30,7 @@ class Idk {
             p("Number Invalid. Choose another number.");
             main(args);
         }
+        scan.close();
 
     }
 
@@ -46,6 +48,7 @@ class Idk {
 
         float fract = (numer / denom) * 100; // Math Stuff = Fraction
         System.out.println("Here's your percentage! " + fract);
+        scan.close();
     }
 
     private static void TempConverter() { // TempConverter Program
@@ -55,7 +58,7 @@ class Idk {
         System.out.println("Enter in a temperature."); // Gets temp
         int temp = scan.nextInt();
 
-        scan = new Scanner(System.in);
+        Scanner anotherScan = new Scanner(System.in);
         System.out.println("Would you like to convert to C or F?"); // Duh
         String type = scan.nextLine();
 
@@ -68,6 +71,8 @@ class Idk {
         } else {
             System.out.println("Invaild Command");
         }
+        scan.close();
+        anotherScan.close();
     }
 
     private static void SysProperties() { // SysProperties Program

@@ -4,17 +4,17 @@ import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.event.*;
 import java.awt.Color;
-import java.awt.*;
 import java.io.*;
-import java.text.*;
-import java.util.*;
 
-class ClickerGame {
+class TextEditor {
+    static String encodeString;
 
     public static void main(String[] args) {
         JFrame f = new JFrame("Text Editor");
         JPanel panel = new JPanel();
-        panel.setBorder(new TitledBorder(new EtchedBorder(), "Editing Time!"));
+        panel.setBorder(new TitledBorder(new EtchedBorder(new Color(191, 198, 204), new Color(191, 198, 204)),
+                "Editing Time!"));
+
         SpringLayout layout = new SpringLayout();
 
         JButton saveData = new JButton("Save");
@@ -48,23 +48,18 @@ class ClickerGame {
 
                 String fi = "C:/Users/noctu/OneDrive/VS Code/Java/GUI/TextEditor/File.txt";
                 try {
-                    // String
                     String s1 = "", sl = "";
-
-                    // File reader
                     FileReader fr = new FileReader(fi);
-
-                    // Buffered reader
                     BufferedReader br = new BufferedReader(fr);
-
-                    // Initilize sl
                     sl = br.readLine();
 
-                    // Take the input from the file
                     while ((s1 = br.readLine()) != null) {
+
                         sl = sl + "\n" + s1;
+
                     }
                     br.close();
+                    System.out.println(s1);
 
                     // Set the text
                     display.setText(sl);
@@ -82,6 +77,7 @@ class ClickerGame {
         panel.setBackground(new Color(25, 30, 36));
         display.setBackground(new Color(32, 39, 49));
 
+        panel.setForeground(new Color(191, 198, 204));
         display.setForeground(new Color(191, 198, 204));
 
         layout.putConstraint(SpringLayout.WEST, saveData, 5, SpringLayout.WEST, panel);
