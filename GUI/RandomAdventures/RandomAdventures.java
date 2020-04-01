@@ -9,6 +9,8 @@ import java.util.*;
 class RandomAdventures {
     static int health = 100;
     static JLabel displayHealth;
+    static int scenarioCounter = 0;
+    static boolean play = true;
 
     public static void main(String[] args) {
         JFrame f = new JFrame("Random Adventures");
@@ -35,70 +37,102 @@ class RandomAdventures {
 
                 healthDisplay.setText("Health: " + Integer.toString(health));
 
+                scenarioCounter++;
                 Random randInt = new Random();
-                int decision = randInt.nextInt(100);
-                if (decision == 0) {
-                    display.append("Special Condition 0 \n");
-                } else if (decision == 1) {
-                    display.append("Special Condition 1 \n");
+                int scenario = randInt.nextInt(100);
+                if (play == true) {
+                    if (health <= 0) {
+                        display.append("\n" + "Game Over.." + "\n");
+                        play = false;
+                    }
+                    if (scenario == 0) {
+                        display.append("Special Condition 0 \n");
+                        health = health + 10;
+                    } else if (scenario == 1) {
+                        display.append("Special Condition 1 \n");
+                        health = health + 2;
 
-                } else if (decision == 2) {
-                    display.append("Special Condition 2 \n");
+                    } else if (scenario == 2) {
+                        display.append("Special Condition 2 \n");
+                        health = health * 3;
 
-                } else if (decision == 3) {
-                    display.append("Special Condition 3 \n");
+                    } else if (scenario == 3) {
+                        display.append("Special Condition 3 \n");
+                        health = health * 2;
 
-                } else if (decision == 4) {
-                    display.append("Special Condition 4 \n");
+                    } else if (scenario == 4) {
+                        display.append("Special Condition 4 \n");
+                        health = health - 20;
 
-                } else if (decision == 5) {
-                    display.append("Special Condition 5 \n");
+                    } else if (scenario == 5) {
+                        display.append("Special Condition 5 \n");
+                        health = health + 12;
 
-                } else if (decision == 6) {
-                    display.append("Special Condition 6 \n");
+                    } else if (scenario == 6) {
+                        display.append("Special Condition 6 \n");
+                        health = health + 40;
 
-                } else if (decision == 7) {
-                    display.append("Special Condition 7 \n");
+                    } else if (scenario == 7) {
+                        display.append("Special Condition 7 \n");
+                        health = health - 70;
 
-                } else if (decision == 8) {
-                    display.append("Special Condition 8 \n");
+                    } else if (scenario == 8) {
+                        display.append("Special Condition 8 \n");
+                        health = health + 38;
 
-                } else if (decision == 9) {
-                    display.append("Special Condition 9 \n");
+                    } else if (scenario == 9) {
+                        display.append("Special Condition 9 \n");
+                        health = health - 100;
 
-                } else if (decision == 10) {
-                    display.append("Special Condition 10 \n");
+                    } else if (scenario == 10) {
+                        display.append("Special Condition 10 \n");
+                        health = health / 2;
 
-                } else if (decision > 10 && decision < 20) {
-                    display.append("10 through 20 \n");
+                    } else if (scenario > 10 && scenario < 20) {
+                        display.append("10 through 20 \n");
+                        health = health - 48;
 
-                } else if (decision >= 20 && decision <= 30) {
-                    display.append("20 through 30 \n");
+                    } else if (scenario >= 20 && scenario <= 30) {
+                        display.append("20 through 30 \n");
+                        health = health - 70;
 
-                } else if (decision >= 30 && decision <= 40) {
-                    display.append("30 through 40 \n");
+                    } else if (scenario >= 30 && scenario <= 40) {
+                        display.append("30 through 40 \n");
+                        health = health + 14;
 
-                } else if (decision >= 40 && decision <= 50) {
-                    display.append("40 through 50 \n");
+                    } else if (scenario >= 40 && scenario <= 50) {
+                        display.append("40 through 50 \n");
+                        health = health + 60;
 
-                } else if (decision >= 50 && decision <= 60) {
-                    display.append("50 through 60 \n");
+                    } else if (scenario >= 50 && scenario <= 60) {
+                        display.append("50 through 60 \n");
+                        health = health - 69;
 
-                } else if (decision >= 60 && decision <= 70) {
-                    display.append("60 through 70 \n");
+                    } else if (scenario >= 60 && scenario <= 70) {
+                        display.append("60 through 70 \n");
+                        health = health + 65;
 
-                } else if (decision >= 70 && decision <= 80) {
-                    display.append("70 through 80 \n");
+                    } else if (scenario >= 70 && scenario <= 80) {
+                        display.append("70 through 80 \n");
+                        health = health - 94;
 
-                } else if (decision >= 80 && decision <= 90) {
-                    display.append("80 through 90 \n");
+                    } else if (scenario >= 80 && scenario <= 90) {
+                        display.append("80 through 90 \n");
+                        health = health - 43;
 
-                } else if (decision >= 90 && decision <= 100) {
-                    display.append("90 through 100 \n");
+                    } else if (scenario >= 90 && scenario <= 100) {
+                        display.append("90 through 100 \n");
+                        health = health + 59;
 
-                } else {
-                    display.append("Invalid Number \n" + decision + "\n");
+                    } else {
+                        display.append("Invalid Number \n" + scenario + "\n");
 
+                    }
+                }
+
+                if (scenarioCounter == 25) {
+                    display.append("\n" + "Congratulations! You've survived!" + "\n");
+                    play = false;
                 }
 
             }
