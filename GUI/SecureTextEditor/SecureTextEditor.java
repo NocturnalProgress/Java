@@ -46,7 +46,7 @@ class SecureTextEditor {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-            }  
+            }
         });
 
         secureLoadData.addActionListener(new ActionListener() {
