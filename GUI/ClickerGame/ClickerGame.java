@@ -32,6 +32,7 @@ class ClickerGame {
         JTextArea display = new JTextArea(16, 48);
         JScrollPane scroll = new JScrollPane(display, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
                 JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+
         display.setEditable(false);
         display.setLineWrap(true);
         display.setWrapStyleWord(true);
@@ -39,6 +40,8 @@ class ClickerGame {
         display.append("Welcome to the The Clicker Game! \n Press the button to begin making money! \n");
 
         JLabel moneyLabel = new JLabel("Money: " + money);
+
+        JButton shopButton = new JButton("Shop");
 
         makeMoney.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent a) {
@@ -57,7 +60,7 @@ class ClickerGame {
         });
 
         saveData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent a) {
+            public void actionPerformed(ActionEvent b) {
                 try (FileWriter fileWrite = new FileWriter(
                         "C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt", false);
                         BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
@@ -72,7 +75,7 @@ class ClickerGame {
         });
 
         loadData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent a) {
+            public void actionPerformed(ActionEvent c) {
                 try (Scanner scan = new Scanner(
                         new File("C:/Users/noctu/OneDrive/VS Code/Java/GUI/ClickerGame/Save.txt"))) {
                     String lastSave = scan.nextLine();
@@ -85,6 +88,12 @@ class ClickerGame {
                     e.printStackTrace();
                 }
 
+            }
+        });
+
+        shopButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent d) {
+                new ShopMenu();
             }
         });
 
@@ -109,6 +118,7 @@ class ClickerGame {
         panel.add(moneyLabel);
         panel.add(saveData);
         panel.add(loadData);
+        panel.add(shopButton);
         f.add(panel);
 
         layout.putConstraint(SpringLayout.WEST, makeMoney, 5, SpringLayout.WEST, panel);
