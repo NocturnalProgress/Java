@@ -1,7 +1,5 @@
 package TerrainGenerator;
 
-import java.util.*;
-
 public class Terrain {
     int x;
     int y;
