@@ -5,9 +5,6 @@ import javax.swing.border.*;
 import java.awt.event.*;
 import java.awt.*;
 import java.io.*;
-import java.text.*;
-import java.util.*;
-import java.util.Timer;
 
 public class ShopMenu {
     JTextArea display;
@@ -16,7 +13,7 @@ public class ShopMenu {
         JFrame f = new JFrame("Shop");
         JPanel panel = new JPanel();
         panel.setBorder(new TitledBorder(new EtchedBorder(), "Shop Time!"));
-        SpringLayout layout = new SpringLayout();
+        // SpringLayout layout = new SpringLayout();
 
         JButton moneyMult = new JButton("Money multiplier");
 

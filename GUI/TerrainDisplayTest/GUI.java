@@ -4,7 +4,6 @@ import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.event.*;
 import java.awt.Color;
-import java.io.*;
 
 class GUI {
     static String encodeString;

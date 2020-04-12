@@ -1,10 +1,7 @@
 package GUI.ButtonCreator;
 
 import javax.swing.*;
-import javax.swing.border.*;
-import java.awt.event.*;
 import java.awt.Color;
-import java.io.*;
 import java.util.*;
 
 public class ButtonCreator {

@@ -3,14 +3,13 @@ package GUI.MegaGUI;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.*;
 
 public class MegaGUI {
     public MegaGUI() {
         JFrame f = new JFrame("MegaGUI");
         JPanel panel = new JPanel();
 
-        SpringLayout layout = new SpringLayout();
+        // SpringLayout layout = new SpringLayout();
 
         JButton randomTextGen = new JButton("Random Text Generator");
         randomTextGen.addActionListener(new ActionListener() {

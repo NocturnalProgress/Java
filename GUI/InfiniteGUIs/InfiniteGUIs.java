@@ -1,12 +1,8 @@
 package GUI.InfiniteGUIs;
 
 import javax.swing.*;
-import javax.swing.border.*;
-import java.awt.event.*;
 import java.awt.Color;
-import java.io.*;
 import java.awt.*;
-import java.util.List;
 import java.util.*;
 
 class InfiniteGUIs {
@@ -18,7 +14,7 @@ class InfiniteGUIs {
 
     InfiniteGUIs() {
 
-        List<JFrame> frameList = new ArrayList<JFrame>();
+        new ArrayList<JFrame>();
         while (loop = true) {
             try {
                 Thread.sleep(100);

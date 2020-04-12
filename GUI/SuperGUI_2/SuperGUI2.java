@@ -3,16 +3,15 @@ package GUI.SuperGUI_2;
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
-import java.util.*;
 
-class MegaGUI {
+class SuperGUI2 {
     public static void main(String[] args) {
         JFrame f = new JFrame("Mega GUI");
         JPanel panel = new JPanel();
         panel.setBorder(new TitledBorder(new EtchedBorder(), "GUI Time!"));
         SpringLayout layout = new SpringLayout();
 
-        JButton button = new JButton("");
+        // JButton button = new JButton("");
 
         JTextArea display = new JTextArea(16, 48);
         JScrollPane scroll = new JScrollPane(display, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
@@ -23,8 +22,6 @@ class MegaGUI {
         display.append(
                 "Welcome to the Mega GUI! \n Type in a program: \n Temperature Calculator \n Percent Converter \n Random Name Generator \n DoggoCreator \n ");
         display.setCaretPosition(display.getDocument().getLength());
-        Scanner scan = new Scanner(System.in);
-
         String command = display.getText();
         if (command.equals("Temperature Converter")) {
 

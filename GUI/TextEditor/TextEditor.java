@@ -82,8 +82,8 @@ class TextEditor {
 
         layout.putConstraint(SpringLayout.WEST, saveData, 5, SpringLayout.WEST, panel);
         layout.putConstraint(SpringLayout.NORTH, saveData, 5, SpringLayout.NORTH, panel);
-        layout.putConstraint(SpringLayout.WEST, saveData, 5, SpringLayout.WEST, panel);
-        layout.putConstraint(SpringLayout.NORTH, saveData, 8, SpringLayout.NORTH, panel);
+        layout.putConstraint(SpringLayout.WEST, loadData, 5, SpringLayout.WEST, panel);
+        layout.putConstraint(SpringLayout.NORTH, loadData, 8, SpringLayout.NORTH, panel);
         layout.putConstraint(SpringLayout.WEST, display, 40, SpringLayout.WEST, panel);
         layout.putConstraint(SpringLayout.NORTH, display, 100, SpringLayout.NORTH, panel);
 
@@ -93,7 +93,6 @@ class TextEditor {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setLocationRelativeTo(null); // Centers JFrame
         f.getContentPane().setBackground(Color.BLACK);
-        f.add(panel);
         f.setVisible(true);
 
     }
