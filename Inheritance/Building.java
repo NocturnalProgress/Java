@@ -30,13 +30,3 @@ class Building {
         } while (numfloors < maxfloors);
     }
 }
-// Make Dog Object
-// each Dog has a unique name variable associated with it
-// has bark() method where it prints out a dog noise
-// has getName() method which returns name
-// has toString() method
-// has a functionality where the dog can be "sitting" or not
-/*
- * Dog anyname = new Dog("NAME");
- * 
- */

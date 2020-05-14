@@ -1,8 +1,8 @@
-package InfiniteFib;
+package FibonacciGenerator;
 
 import java.util.*;
 
-class InfiniteFib {
+class FibonacciGenerator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("How many fibs do you want?");
@@ -19,10 +19,4 @@ class InfiniteFib {
         } while (x <= number);
     }
 
-
-
-
-
-
-    
 }

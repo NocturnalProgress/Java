@@ -9,14 +9,6 @@ public class Animal implements LivingCreature {
     String animalGroup;
     String animalSpecies;
 
-    // Create a text based game
-    // Player
-    // Animal
-    // The player and the animal have a set health
-    // The animal is randomly generated and each animal has a different health
-    // Create a random list that gives out actions that do certain things to the
-    // Players health
-
     public static void main(String[] args) {
         Animal Sarcobious = new Animal();
         Sarcobious.name();
@@ -75,4 +67,3 @@ public class Animal implements LivingCreature {
         System.out.println("This animal is a " + animalSpecies);
     }
 }
-// Animal group defines the animal species list

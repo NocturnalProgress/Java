@@ -15,15 +15,16 @@ public class ButtonCreator {
             buttonList.add(button);
 
             panel.add(button);
-            f.add(panel);
 
-            f.setResizable(true);
-            f.pack();
-            f.setSize(600, 400);
-            f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            f.setLocationRelativeTo(null); // Centers JFrame
-            f.getContentPane().setBackground(Color.BLACK);
-            f.setVisible(true);
         }
+
+        f.setResizable(true);
+        f.pack();
+        f.setSize(600, 400);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setLocationRelativeTo(null); // Centers JFrame
+        f.getContentPane().setBackground(Color.BLACK);
+        f.setVisible(true);
+        f.add(panel);
     }
 }

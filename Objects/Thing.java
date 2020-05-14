@@ -22,10 +22,4 @@ class Thing {
         System.out.println("How many buildings would you like?");
     }
 
-    // Make Dog Object
-    // each Dog has a unique name variable associated with it DONE
-    // has bark() method where it prints out a dog noise DONE
-    // has getName() method which returns name DONE
-    // has toString() method DONE
-    // has a functionality where the dog can be "sitting" or not DONE
 }
